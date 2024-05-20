@@ -12,7 +12,7 @@ torch
 torchvision
 tqdm
 easydict
-
+ultralytics
 # Logging -------------------------------------
 # tensorboard>=2.13.0
 # clearml
