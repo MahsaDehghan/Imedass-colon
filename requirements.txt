@@ -1,23 +1,6 @@
-# Ultralytics requirements
-# Usage: pip install -r requirements.txt
+streamlit==1.22.0
+ultralytics==8.0.98
 
-# Base ----------------------------------------
-matplotlib
-opencv-python
-Pillow
-PyYAML
-requests
-scipy
-torch
-torchvision
-tqdm
-easydict
-ultralytics
-# Logging -------------------------------------
-# tensorboard>=2.13.0
-# clearml
-# comet
-
-# Plotting ------------------------------------
-pandas
-seaborn
+opencv-python==4.7.0.72
+# opencv-python-headless==4.7.0.72
+Pillow==9.5.0
