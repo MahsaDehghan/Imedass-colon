@@ -1,13 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   @File Name:     app.py
-   @Author:        Mahsa Dehghan Manshadi
-   @Date:          2024/1/1
-   @Description:
--------------------------------------------------
-"""
+
 from pathlib import Path
 from PIL import Image
 import streamlit as st
