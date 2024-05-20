@@ -1,13 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   @File Name:     config.py
-   @Author:        Luyao.zhang
-   @Date:          2023/5/16
-   @Description: configuration file
--------------------------------------------------
-"""
+
 from pathlib import Path
 import sys
 
@@ -26,20 +17,11 @@ ROOT = root_path.relative_to(Path.cwd())
 
 
 # Source
-SOURCES_LIST = ["Image", "Video", "Webcam"]
+SOURCES_LIST = ["Image", "Offline-mode", "Realtime-mode"]
 
 
 # DL model config
 DETECTION_MODEL_DIR = ROOT / 'weights' / 'detection'
-YOLOv8n = DETECTION_MODEL_DIR / "yolov8n.pt"
-YOLOv8s = DETECTION_MODEL_DIR / "yolov8s.pt"
-YOLOv8m = DETECTION_MODEL_DIR / "yolov8m.pt"
-YOLOv8l = DETECTION_MODEL_DIR / "yolov8l.pt"
-YOLOv8x = DETECTION_MODEL_DIR / "yolov8x.pt"
+Imedasscolon = DETECTION_MODEL_DIR / "Imedasscolon.pt"
 
-DETECTION_MODEL_LIST = [
-    "yolov8n.pt",
-    "yolov8s.pt",
-    "yolov8m.pt",
-    "yolov8l.pt",
-    "yolov8x.pt"]
+DETECTION_MODEL_LIST = ["Imedasscolon.pt"]
