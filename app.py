@@ -3,8 +3,8 @@
 """
 -------------------------------------------------
    @File Name:     app.py
-   @Author:        Luyao.zhang
-   @Date:          2023/5/15
+   @Author:        Mahsa Dehghan Manshadi
+   @Date:          2024/1/1
    @Description:
 -------------------------------------------------
 """
@@ -17,17 +17,17 @@ from utils import load_model, infer_uploaded_image, infer_uploaded_video, infer_
 
 # setting page layout
 st.set_page_config(
-    page_title="Interactive Interface for YOLOv8",
-    page_icon="🤖",
+    page_title="Imedass - COLON",
+    # page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
     )
 
 # main page heading
-st.title("Interactive Interface for YOLOv8")
+st.title("Intelligent Medical Assistant For The Endoscopist")
 
 # sidebar
-st.sidebar.header("DL Model Config")
+st.sidebar.header("Select Your Virtual Assistant")
 
 # model options
 task_type = st.sidebar.selectbox(
