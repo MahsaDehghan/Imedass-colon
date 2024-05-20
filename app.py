@@ -36,7 +36,7 @@ else:
     st.error("Currently only 'Detection' function is implemented")
 
 confidence = float(st.sidebar.slider(
-    "Select Model Confidence", 30, 100, 50)) / 100
+    "Select Model Confidence", 30, 100, 63)) / 100
 
 model_path = ""
 if model_type:
