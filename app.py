@@ -15,7 +15,7 @@ st.set_page_config(
     )
 
 # main page heading
-st.title("Intelligent Medical Assistant For The Endoscopist")
+st.title("Intelligent Medical Diagnostic Assistant For The Endoscopists")
 
 # sidebar
 st.sidebar.header("Select Your Virtual Assistant")
