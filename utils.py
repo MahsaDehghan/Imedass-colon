@@ -1,13 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   @File Name:     utils.py
-   @Author:        Luyao.zhang
-   @Date:          2023/5/16
-   @Description:
--------------------------------------------------
-"""
+
 from ultralytics import YOLO
 import streamlit as st
 import cv2
