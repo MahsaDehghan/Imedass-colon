@@ -22,6 +22,6 @@ SOURCES_LIST = ["Image", "Offline-mode", "Realtime-mode"]
 
 # DL model config
 DETECTION_MODEL_DIR = ROOT / 'weights' / 'detection'
-Imedasscolon = DETECTION_MODEL_DIR / "Imedasscolon.pt"
+Imedacolon = DETECTION_MODEL_DIR / "best.pt"
 
-DETECTION_MODEL_LIST = ["Imedasscolon.pt"]
+DETECTION_MODEL_LIST = ["best.pt"]

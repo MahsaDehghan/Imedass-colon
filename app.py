@@ -1,4 +1,13 @@
-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+-------------------------------------------------
+   @File Name:     app.py
+   @Author:        Mahsa Dehghan Manshadi
+   @Date:          2024/1/1
+   @Description:
+-------------------------------------------------
+"""
 from pathlib import Path
 from PIL import Image
 import streamlit as st
@@ -8,14 +17,14 @@ from utils import load_model, infer_uploaded_image, infer_uploaded_video, infer_
 
 # setting page layout
 st.set_page_config(
-    page_title="Imedass - COLON",
+    page_title="Imeda - COLON",
     # page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
     )
 
 # main page heading
-st.title("Intelligent Medical Diagnostic Assistant For The Endoscopists")
+st.title("Intelligent Medical Assistant For The Endoscopist")
 
 # sidebar
 st.sidebar.header("Select Your Virtual Assistant")
@@ -36,7 +45,7 @@ else:
     st.error("Currently only 'Detection' function is implemented")
 
 confidence = float(st.sidebar.slider(
-    "Select Model Confidence", 30, 100, 63)) / 100
+    "Select Model Confidence", 30, 100, 50)) / 100
 
 model_path = ""
 if model_type:
